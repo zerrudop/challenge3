@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2F2F30;
+}
+
+.header{
+    background-image: linear-gradient(#4A4A4A, #0B0B0B, #4F4F4F);
+    width:59.5%;
+    padding:1px;
+    float:left;
+}
+
+.logo{
+    float:left;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.now{
+    font-weight: normal;
+    font-style:italic;
+}
+
+.spacecraft{
+    width:40%;
+    float:right;
+    border: 1px solid #959595;
+
+}
+
+.spacecraft p, .spacecraft h2{
+    display:block;
+    margin:auto;
+    margin-left:6%;
+    font-weight: normal;
+}
+
+.spacecraft p{
+    
+    margin-top: 10px;
+    color: #959595;
+}
+
+.spacecraft h2{
+    color:white;
+}
+
+.spaceball{
+    display:block;
+    margin:auto;
+    margin-bottom: 7%;
+    width:85;
+}
+
+.alien-container {
+    float:left;
+    width:50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.alien-item {
+    margin:5px;
+    margin-top:0px;
+    background-color: #0B0B0B;
+    border: 5px solid #b8b8b8;
+    border-bottom: 5px solid #575757;
+    border-right: 5px solid #575757;
+}
+.cam-label{
+    margin:0px;
+    background-color:#959595;
+}
+.info{
+    float: right;
+    width: 40%;
+    color:white;
+    background-color: #363636;
+    border: 1px solid #959595;
+
+}
+
+.infotext{
+    margin:5%;
+}
+
+.info h3{
+    font-weight: normal;
+    padding:2%;
+    padding-left: 0%;
+    background-color: #424242;
+    font-size: 24px;
+}
+
+.info span{
+    color: #91B8DC;
+    margin-bottom: 0%;
+}
+
+.info p{
+    margin-top: 0%;
+    font-size: 24px;
+}
